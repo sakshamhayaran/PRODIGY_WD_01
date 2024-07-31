@@ -1,0 +1,362 @@
+*{
+    margin:0px;
+    font-family:Arial;
+    border:border-box;
+}
+/*Navigation Bar*/
+.navbar{
+    height:60px;
+    background-color:#151823;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+/*Amazon logo in Navbar*/
+.nav-logo{
+    height:40px;
+    width:118px;
+}
+.nav-logo:hover{
+    border:2px solid white;
+}
+.amazonlogo{
+    height:40px;
+    width:113px;
+    background-size:cover;
+    background-image:url(amazonlogo.png);
+}
+/*Delivery to....India*/
+.nav-address{
+    height:40px;
+    width:145px;
+    color:white;
+    display:flex;
+    align-items:center;
+}
+.nav-address:hover{
+    border:2px solid white;
+}
+.locationicon{
+    height:18px;
+    width:15px;
+    margin-top:15px;
+    margin-right:5px;
+}
+.delivery{
+    height:30px;
+    width:147px;
+    color:#CCCCCC;
+}
+.deliverto{
+    height:14px;
+    width:147px;
+    font-size:0.8rem;
+    color:#CCCCCC;
+}
+.india{
+    height:16px;
+    width:147px;
+    font-weight:800;
+}
+/*Search Bar*/
+.searchbar{
+    display:flex;
+    height:40px;
+    width:820px;
+    justify-content:space-evenly;
+    justify-content:center;
+    align-items:center;
+}
+.searchbar:hover{
+    border:4px solid #ffbb00;
+}
+.all{
+    color:#0F1111;
+    height:40px;
+    width:60px;
+    padding:0px 0px 0px 5px;
+    text-align:center;
+}
+.search{
+    border:none;
+    text-align:left;
+    height:37px;
+    width:100%;
+    font-size:1rem;
+}
+.searchicon{
+    color:black;
+    justify-content:center;
+    align-content:center;
+    text-align:center;
+    font-size:1.5rem;
+    background-color:#fcd367;
+    width:50px;
+    height:40px;
+}
+/*Language*/
+.language{
+    height:40px;
+    width:75px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.en{
+    height:15px;
+    width:20px;
+    font-weight:700;
+    color:#ffff;
+}
+.language:hover{
+    border:2px solid white;
+}
+.langlogo{
+    background-image:url(flag.png);
+    background-size:cover;
+    height:18px;
+    width:24px;
+}
+/*Sign in to Account*/
+.signin{
+    height:40px;
+    width:141px;
+    align-content:center;
+}
+.signin:hover{
+    border:2px solid white;
+}
+/*Returns and Orders*/
+.returnsandorders{
+    height:40px;
+    width:101px;
+    align-content:center;
+}
+.returnsandorders:hover{
+    border:2px solid white;
+}
+
+.smalltext{
+    height:14px;
+    width:141px;
+    font-size:0.8rem;
+    color:#CCCCCC;
+}
+.bigtext{
+    height:16px;
+    width:141px;
+    font-weight:700;
+    color:#ffff;
+}
+/*Cart*/
+.cart{
+    display:flex;
+    align-items:center;
+    height:40px;
+    width:90px;
+}
+.cart:hover{
+    border:2px solid white;
+}
+.carticon{
+    color:white;
+    font-size:30px;
+}
+/*Navigation Panel*/
+.navpanel{
+    height:40px;
+    display:flex;
+    background-color:#242e40;
+}
+/*Menu*/
+.allmenu{
+    height:35px;
+    width:58px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.allmenu:hover{
+    border:2px solid white;
+}
+.allmenu i{
+    color:white;
+    font-size:1.4rem;
+}
+.allmenu p{
+    width:17px;
+    height:12px;
+    color:white;
+    font-weight:700;
+}
+/*Panel Options*/
+.panelops{
+    display:flex;
+    height:35px;
+    width:40%;
+    justify-content:space-evenly;
+
+}
+.opsp{
+    height:35px;
+    align-content:center;
+    color:white;
+}
+.opsp:hover{
+    border:2px solid white;
+}
+
+/*hero section*/
+.hero_section{
+    background-image:url(hero_image.jpg);
+    background-size:cover;
+    height:325px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+.heromsg{
+    height:40px;
+    width:1450px;
+    background-color:white;
+    color:black;
+    text-align:center;
+    align-content:center;
+    margin-bottom:20px;
+}
+.heromsg a{
+    color:#007185;
+    cursor:pointer;
+    text-decoration:none;
+}
+
+
+/*Shopping section*/
+.shop-section{
+    padding:25px 0px 25px 0px;
+    height:880px;
+    background-color:#c2caca;
+}
+.line{
+    display:flex;
+    justify-content:space-evenly;
+    padding-bottom:25px;
+}
+.box{
+    height:420px;
+    width:350px;
+    background-color:white;
+}
+.b1{
+    background-image:url("gaming.png");
+    background-size:cover;
+}
+.b2{
+    background-image:url("fashion.png");
+    background-size:cover;
+}
+.b3{
+    background-image:url("space.png");
+    background-size:cover;
+}
+.b4{
+    background-image:url("pc.png");
+    background-size:cover;
+}
+.b5{
+    background-image:url("gadget.png");
+    background-size:cover;
+}
+.b6{
+    background-image:url("dad.png");
+    background-size:cover;
+}
+.b7{
+    background-image:url("season.png");
+    background-size:cover;
+}
+.b8{
+    background-image:url("trends.png");
+    background-size:cover;
+}
+
+/*Sign in option in Footer*/
+.footer_signin{
+    height:125px;
+    margin:20px 0px 20px 0px;
+    align-content:center;
+    text-align:center;
+    border-top:1px solid #bcbcbc;
+    border-bottom:1px solid #bcbcbc;
+}
+.footer_signin p{
+    font-size:0.8rem;
+}
+.footer_signin a{
+    color:#007185;
+    cursor:pointer;
+    text-decoration:none;
+}
+.footer_signin button{
+    border:2px solid #ffbb00;
+    background-color:#ffc836;
+    margin:5px 0px 5px 0px;
+    height:28px;
+    width:230px;
+    border-radius:8%;
+    box-shadow:
+    inset 0px 10px rgba(255, 255, 255, 0.3);
+    cursor:pointer;
+}
+
+
+/*Footer*/
+.backtotop{
+    height:50px;
+    background-color:#37475a;
+    color:white;
+    text-align:center;
+    align-content:center;
+}
+.footerops{
+    height:350px;
+    background-color:#242e40;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.fo{
+    height:250px;
+}
+.footerops ul a{
+    color:#c9c7c7;
+    font-size:0.9rem;
+    display:block;
+    margin-top:10px;
+}
+.footerops ul p{
+    color:white;
+    font-weight:500;
+    font-size:1.1rem;
+}
+/*Copyright*/
+.copyright{
+    height:70px;
+    background-color:#151823;
+    color:#c9c7c7;
+    align-content:center;
+    text-align:center;
+}
+.copyright p{
+    height:18px;
+    font-size:0.8rem;
+}
+.copyright a{
+    padding:0px 7px 0px 7px;;
+}
+
+
+
+
+
+
