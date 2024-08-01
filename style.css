@@ -6,10 +6,12 @@
 /*Navigation Bar*/
 .navbar{
     height:60px;
+    width:100%;
     background-color:#151823;
     display:flex;
     align-items:center;
     justify-content:space-evenly;
+    position:fixed;
 }
 /*Amazon logo in Navbar*/
 .nav-logo{
